@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fff;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+/*Header*/
+
+header{
+  height: 60px;
+  background: #9dd1ff;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15); 
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.div_logo{
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.logo{
+  color: #222;
+  font-weight: 600;
+  font-size: 20px; 
+}
+
+.logo_img{
+  height: 60px;
+}
+
+.nav {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px; 
+}
+
+.nav li a{
+  cursor: pointer;
+  color: #222;
+  transition: opacity 300ms ease;
+  text-decoration: none;
+}
+.nav li a:hover{
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.home_img{
+  height: 40px;
+}
+
+/*Footer*/
+
+footer {
+  height: 60px;
+  padding: 20px 50px;
+  background: #015C92;
+  box-shadow: 0 -15px 30px 0 rgba(0,0,0,0.15);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Main*/
+
+.section{
+  height: 600px;
+  background: url('./img/eng1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+.section p{
+  padding: 80px 80px;
+  font-weight: 600;
+  font-size: 30px; 
+  text-align: left;
+}
+
+.box{
+  height: 600px;
+  padding: 100px 80px;
+}
+
+.box .title{
+  font-weight: 600;
+  font-size: 30px; 
+  text-align: center;
+}
+.box .text{
+  font-weight: 300;
+  font-size: 20px; 
+  text-align: center;
+  padding-top: 10px;
+}
+
+.box .cards{
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box .card{
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  background: #9dd1ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.box .card .img{
+  height: 50px;
+}
+
+.box .card  a{
+  
+  font-weight: 600;
+  color: #222;
+  transition: opacity 300ms ease;
+  text-decoration: none;
+}
+.box .card a:hover{
+  opacity: 0.7;
+}
+.box .card  p{
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.invitation{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.invitation p{
+  font-weight: 600;
+  font-size: 30px; 
+  text-align: center;
+}
+
+ .button{
+  margin-top: 50px;
+  background: #015C92;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 600ms ease;
+}
+ .button:hover{
+  background: #9dd1ff;
+}
+ .button a{
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*Authorization*/
+
+.container{
+  height: 415px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.tab_list{
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tabs{
+  font-family: 'Montserrat', sans-serif;
+  border: 0px;
+  font-weight: 600;
+  background: #ffffff;
+  color: #222;
+  font-size: 18px;
+}
+
+.active-tabs  {
+  border-bottom: 3px solid #015C92;
+}
+
+.content{
+  margin-top: 50px;
+  width: 300px;
+}
+.button{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 0px;
+  cursor: pointer;
+}
+
+input{
+  width: 100%;
+  border: 1px solid #b0b4b9;
+  border-radius: 5px; 
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*Theory, Vocabulary, Reading, Listening*/
+
+.list{
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.concreate-list{
+  margin-top: 50px;
+  height: 70%;
+  width: 70%;
+  background: url('./img/list_bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.concreate-list a{
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #222;
+  transition: opacity 300ms ease;
+  
+}
+
+.concreate-list a:hover{
+  opacity: 0.7;
+}
+.concreate-list a li{
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+/*TheorySection*/
+
+.info{
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.info  p{
+  font-size: 18px;
+  width: 70%;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.test_link{
+  margin:  30px 0px;
+  background: #015C92;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 600ms ease;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.test_link:hover{
+  background: #9dd1ff;
+}
+
+/*Test*/
+
+.questions{
+  width: 400px;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.group{
+  margin-top: 30px;
+}
+.lable{
+  font-weight: 600;
+}
+
+.options{
+  width: 400px;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #b0b4b9;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active-options{
+  background-color: #9dd1ff;
+}
+
+.bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.2);
+}
+.popup{
+  background-color: #f3f5f6;
+  width: 500px;
+  height: 200px;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px; 
+  display: flex;
+  justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+/*ReadingSection*/
+
+.listbox{
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  
+}
+.listbox button{
+  width: 400px;
+  height: 50px;
+  background: #9dd1ff;
+  border-radius: 20px;
+  border: 1px solid #b0b4b9;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.listbox .ans{
+  position: absolute;
+  top: 100px;
+  z-index: 2;
+  border-radius: 20px;
+  background: #fff;
+}
+/*Player*/
+
+.player {
+  background-color: #e3e7ec;
+  width: 400px;
+  height: 60px;
+  margin: 1em auto;
+  border: 1px solid #b0b4b9;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.playButton {
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.timer{
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: #999da1;
+  font-size: smaller;
+}
+.time p{
+  margin: 0 0;
+  width: 50px;
+  text-align: center;
+}
+
+.timeline {
+  margin: 0 0;
+  width: 300px;
+}
+
+/*VocabularySection*/
+
+.words{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card{
+  height: 130px;
+  margin: 20px 0px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.card button{
+  cursor: pointer;
+}
+
+.card div{
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  border: 1px solid #b0b4b9;
+  border-radius: 20px;
+  background: #9dd1ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .word{
+  background: #9dd1ff;
+}
+
+.card .translations{
+  background: #015C92;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.card button{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  color: #000000;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
